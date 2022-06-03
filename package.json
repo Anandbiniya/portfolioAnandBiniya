@@ -10,7 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.13",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.6.0", 
+    "@testing-library/user-event": "^12.6.0",
     "formik": "^2.2.6",
     "framer-motion": "^3.0.0",
     "react": "^17.0.1",
@@ -22,7 +22,9 @@
     "react-router-hash-link": "^2.3.1",
     "react-scripts": "4.0.1",
     "react-toastify": "^6.2.0",
+    "react-tsparticles": "^2.0.6",
     "smoothscroll-polyfill": "^0.4.4",
+    "tsparticles": "^2.0.6",
     "web-vitals": "^0.2.4",
     "yup": "^0.32.8"
   },
@@ -49,5 +51,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "."
 }

@@ -2,14 +2,16 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import smoothscroll from "smoothscroll-polyfill";
 import Button from "../Utilities/Button";
-import main from "../../Assets/img/main.jpg";
+import main from "../../Assets/img/main.png";
 import { HashLink as Link } from "react-router-hash-link";
 import styles from "./Landing.module.css";
+import Particle1 from "../Particle1";
 
 const Landing = () => {
   smoothscroll.polyfill();
   return (
     <header id="landing" className={`${styles.landing} ${"container"}`}>
+      <Particle1 />
       <Fade>
         <section className={styles.welcome}>
           <h1>

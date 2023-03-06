@@ -13,18 +13,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   const { isLight } = useContext(ThemeContext);
+  console.log(isLight);
 
   const darkTheme = () => {
     return (
       (document.body.style.backgroundColor = "rgba(15, 0, 46, 1)"),
       (document.body.style.color = "rgba(255, 255, 255, 0.87)")
-      
     );
   };
   const lightTheme = () => {
     return (
-      (document.body.style.backgroundColor = null),
-      (document.body.style.color = null)
+      (document.body.style.backgroundColor = "rgba(23,0,57,2)"),
+      (document.body.style.color = "rgba(0,0,255,3)")
     );
   };
 

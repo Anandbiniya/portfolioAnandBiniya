@@ -12,8 +12,8 @@ import ProjectItem from "./ProjectItem";
 
 import styles from "./ProjectContainer.module.css";
 
-import html from "../../../Assets/img/logos/html.svg";
-import css from "../../../Assets/img/logos/css.svg";
+import html from "../../../Assets/img/logos/js.svg";
+import css from "../../../Assets/img/logos/js.svg";
 import js from "../../../Assets/img/logos/js.svg";
 import react from "../../../Assets/img/logos/react.svg";
 import coschedule from "./images/cosche.png";

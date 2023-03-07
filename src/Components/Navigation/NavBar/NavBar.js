@@ -71,7 +71,7 @@ const NavBar = () => {
                         socialClass={"navSocial"}
                         socialIcons={"socialIcons"}
                     />
-                    <ThemeToggle />
+                    {/* <ThemeToggle /> */}
                 </ul>
             </nav>
             <MobileNav
